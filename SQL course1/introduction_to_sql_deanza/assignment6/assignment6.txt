@@ -1,0 +1,13 @@
+Relationships
+
+1) College(parent) can have zero or more departments(child).
+2) Department(parent) may have zero ore more courses(child).
+3) A course(parent) has zero or more sections(child).
+4) College(parent) can have one or more locations(child).
+5) Department(parent) can have one or more locations(child).
+6) Zero or more sections(child) can be held at one location (parent).
+7) Each user(instructor) may teach zero or more sections(child).
+8) One user(parent) can have one user student registration(child).
+9) One user(parent) has one resident id(child).
+10) Zero or many sections(parent) may have zero or many student registrations(child).
+11) One student registration(child) will have one payment id(parent).
